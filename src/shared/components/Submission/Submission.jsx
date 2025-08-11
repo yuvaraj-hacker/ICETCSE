@@ -32,7 +32,7 @@ function Submission() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('Sending...');
-        const journalName = 'icacsit';
+        const journalName = 'icetcse';
         // Generate unique ID: journalName + YYYYMMDD + HHMMSS
         const now = new Date();
         const dateStr = now.toISOString().slice(0, 10).replace(/-/g, ''); // YYYYMMDD
@@ -67,9 +67,7 @@ function Submission() {
                 },
                 body: googleSheetsParams.toString(),
             });
-
             const [mailResponse, sheetsResponse] = await Promise.allSettled([mailPromise, sheetsPromise]);
-
             const mailSuccess = mailResponse.status === 'fulfilled' && mailResponse.value.ok;
             const sheetsSuccess = sheetsResponse.status === 'fulfilled';
 
@@ -170,32 +168,14 @@ function Submission() {
                     </div>
                 </section>
             </section > */}
-            <section className="bg-gray-100 pb-10" id="paper-submission">
-                <div className="pt-10 px-6 xl:px-20 w-full xl:w-[70%] mx-auto">
-                    <h2 className="text-3xl font-bold text-green-700 mb-6 text-center">Paper Submission</h2>
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center' >
+                <div className='text-white md:text-3xl text-xl font-bold uppercase'>
+                    New Paper Submission
                 </div>
-                <div className="w-full  max-w-[75rem] px-4 flex flex-col lg:flex-row gap-8 items-center justify-center mx-auto">
-                    <div className="w-full lg:w-1/2 bg-white shadow-lg rounded-2xl p-8 order-1 lg:order-2 border-t-4 border-b-4 border-[#528F62]">
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Submission Guidelines</h2>
-                        <ul className="space-y-3 text-gray-700">
-                            <li>Papers must be written in English.</li>
-                            <li>Maximum length: 8 pages including figures and references.</li>
-                            <li>Use the conference format.</li>
-                            <li>Submit in PDF, Docx, PPTX format.</li>
-                            <li>Include abstract (max 250 words).</li>
-                            <li>Blind all author information for review.</li>
-                        </ul>
-                        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Important Notes</h2>
-                        <ul className="space-y-3 text-gray-700">
-                            <li>All papers undergo a double-blind peer review process.</li>
-                            <li>At least one author must register for the conference.</li>
-                            <li>Plagiarism checks will be performed.</li>
-                            <li>Multiple submissions are not allowed.</li>
-                            <li>Authors must present accepted papers at the conference.</li>
-                            <li>Papers will be published in the conference proceedings.</li>
-                        </ul>
-                    </div>
-                    <div className="w-full lg:w-2/3 bg-white shadow-lg rounded-2xl p-8 border-t-4 border-b-4 border-[#528F62] order-2 lg:order-1">
+            </section>
+            <section className="pb-10" id="paper-submission">
+                <div className="w-full  max-w-[75rem] pt-10 px-4 flex flex-col lg:flex-row gap-8 items-center justify-center mx-auto">
+                    <div className="w-full lg:w-2/3 bg-white shadow-lg rounded-2xl p-8 order-2 lg:order-1">
                         <form className="space-y-6" onSubmit={handleSubmit}>
                             <div>
                                 <label htmlFor="Paper_Title" className="block text-lg font-medium text-gray-700">Paper Title</label>
@@ -236,10 +216,31 @@ function Submission() {
                                 <input id="Paper_File" name="Paper_File" type="file" accept=".pdf" className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-1 focus:ring-green-600 focus:border-green-600 focus:outline-none" required />
                             </div>
                             <div>
-                                <button type="submit" className="w-full px-4 py-2 cursor-pointer bg-green-700 text-white font-semibold rounded-lg hover:bg-green-600">{status === 'Sending...' ? 'Submitting...' : 'Submit Paper'}</button>
+                                <button type="submit" className="w-full px-4 py-2 cursor-pointer bg-[#ff531a] text-white font-semibold rounded-lg hover:bg-[#ff531a]">{status === 'Sending...' ? 'Submitting...' : 'Submit Paper'}</button>
                             </div>
                         </form>
                     </div>
+                    <div className="w-full lg:w-1/2 bg-white shadow-lg rounded-2xl p-8 order-1 lg:order-2">
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Submission Guidelines</h2>
+                        <ul className="space-y-3 text-gray-700">
+                            <li>Papers must be written in English.</li>
+                            <li>Maximum length: 8 pages including figures and references.</li>
+                            <li>Use the conference format.</li>
+                            <li>Submit in PDF, Docx, PPTX format.</li>
+                            <li>Include abstract (max 250 words).</li>
+                            <li>Blind all author information for review.</li>
+                        </ul>
+                        <h2 className="text-2xl font-semibold text-gray-800 mt-6 mb-4">Important Notes</h2>
+                        <ul className="space-y-3 text-gray-700">
+                            <li>All papers undergo a double-blind peer review process.</li>
+                            <li>At least one author must register for the conference.</li>
+                            <li>Plagiarism checks will be performed.</li>
+                            <li>Multiple submissions are not allowed.</li>
+                            <li>Authors must present accepted papers at the conference.</li>
+                            <li>Papers will be published in the conference proceedings.</li>
+                        </ul>
+                    </div>
+
                 </div>
             </section>
             <Bottom />

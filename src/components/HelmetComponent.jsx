@@ -5,18 +5,19 @@ function HelmetComponent({ title, canonical }) {
     return (
         <Helmet>
             <title>{title}</title>
-            <meta name="keywords" content="ICACSIT, International Conference, Computer Science, Information Technology, AI, Machine Learning, Big Data, Cloud Computing, Software Engineering, Computational Models, Data Analytics, Smart Systems, Emerging Trends, Academic Conference 2025, CS Research, IT Innovations, Advanced Algorithms, IoT, Cybersecurity" />
-            <meta name="description" content="The International Conference on Advances in Computer Science and Information Technology (ICACSIT 2025) brings together researchers, scholars, and professionals to discuss innovations in computer science, information technology, artificial intelligence, data analytics, and more." />
-            <meta name="author" content="ICACSIT Editorial Team" />
+            <meta name="keywords" content="ICETCSE, International Conference, Computer Science, Engineering, Artificial Intelligence, Machine Learning, Cloud Computing, Data Analytics, Cybersecurity, IoT, Big Data, Software Engineering, Computational Models, Emerging Trends, Academic Conference 2025, Technology Innovations, Industry 4.0, Smart Systems, Blockchain, Edge Computing" />
+            <meta name="description" content="The International Conference on Emerging Trends in Computer Science & Engineering (ICETCSE 2025) unites researchers, academicians, and industry leaders to explore breakthroughs in AI, cloud computing, cybersecurity, IoT, data analytics, and other cutting-edge technologies shaping the future." />
+            <meta name="author" content="ICETCSE Editorial Team" />
             <meta name="robots" content="index, follow" />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="International Conference on Advances in Computer Science and Information Technology (ICACSIT)" />
-            <meta property="og:description" content="Join ICACSIT 2025 to explore the latest trends and research in computer science, IT, AI, and more through expert sessions and technical papers." />
-            <meta property="og:url" content="https://icacsit.com/" />
-            <meta property="og:image" content="https://icacsit.com/assets/images/White.png" />
+            <meta property="og:title" content="International Conference on Emerging Trends in Computer Science & Engineering (ICETCSE)" />
+            <meta property="og:description" content="Join ICETCSE 2025 to discover emerging trends and innovative research in computer science and engineering through expert keynotes, technical sessions, and collaborative discussions." />
+            <meta property="og:url" content="https://icetcse.com/" />
+            <meta property="og:image" content="https://icetcse.com/assets/images/White.png" />
             <link rel="canonical" href={canonical} />
-            <link rel="icon" type="image/png" href="https://icacsit.com/assets/images/ICACSIT-Fav.png" />
+            <link rel="icon" type="image/png" href="https://icetcse.com/assets/images/ICETCSE-Fav.png" />
         </Helmet>
+
     );
 }
 

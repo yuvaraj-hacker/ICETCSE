@@ -4,61 +4,75 @@ import Bottom from '../Bottom/Bottom'
 function ConferenceTracks() {
     const tracks = [
         {
-            title: 'AI for Smart Materials & Nanotech',
-            description:
-                'Harnessing AI and data analytics in the design, simulation, and optimization of advanced materials and nanostructures for multidisciplinary applications.',
+            title: 'Artificial Intelligence',
+            description: 'Exploring AI advancements, deep learning, and neural networks.',
         },
         {
-            title: 'AI & Machine Learning Innovations',
-            description:
-                'Breakthroughs in deep learning, generative AI, computer vision, and intelligent systems transforming industries, healthcare, and digital ecosystems.',
+            title: 'Cybersecurity & Blockchain',
+            description: 'Innovations in security, encryption, and decentralized technologies.',
         },
         {
-            title: 'Analytics in Renewable Energy Systems',
-            description:
-                'Data-driven insights and AI models for optimizing solar, wind, and green technologies to improve sustainability and energy efficiency.',
+            title: 'Cloud Computing & Big Data',
+            description: 'Trends in cloud architecture, data analytics, and computing services.',
         },
         {
-            title: 'Autonomous Systems & Intelligent Control',
-            description:
-                'Advances in robotics, AI-powered automation, IoT integration, and real-time control systems for smart manufacturing and services.',
+            title: 'IoT & Embedded Systems',
+            description: 'Smart devices, automation, and IoT security challenges.',
         },
         {
-            title: 'Cloud Computing & Secure Data Infrastructure',
-            description:
-                'Next-gen solutions in cloud architecture, data security, 5G/6G networks, and scalable analytics platforms for modern enterprises.',
+            title: 'Robotics & Automation',
+            description: 'Next-gen robotics applications and intelligent automation solutions.',
         },
         {
-            title: 'AI in Biomedical & Health Informatics',
+            title: 'Software Engineering & DevOps',
             description:
-                'AI-enabled diagnostics, predictive healthcare analytics, and cloud-based health informatics driving innovation in medical technologies.',
+                'Modern software development, CI/CD, and agile methodologies.',
         },
         {
-            title: 'Smart Infrastructure & AI in Civil Systems',
-            description:
-                'Leveraging AI, digital twins, and analytics for intelligent transportation, urban planning, structural health monitoring, and sustainability.',
+            title: 'Computer Vision & Image Processing',
+            description: 'Image recognition, pattern analysis, and real-time visual computing.',
         },
         {
-            title: 'AI for Environmental & Climate Solutions',
-            description:
-                'AI-driven models and analytics for pollution monitoring, climate forecasting, ecological modeling, and sustainable environment management.',
+            title: 'Natural Language Processing',
+            description: 'Speech recognition, machine translation, and sentiment analysis.',
         },
+        {
+            title: 'Quantum Computing',
+            description: 'Quantum algorithms, cryptography, and next-generation computation models.',
+        },
+        {
+            title: '5G & Next-Gen Networks',
+            description: 'High-speed connectivity, network slicing, and edge computing.',
+        },
+        {
+            title: 'Augmented & Virtual Reality',
+            description: 'Immersive experiences, simulations, and human-computer interaction.',
+        },
+        {
+            title: 'Green & Sustainable Computing',
+            description: 'Energy-efficient systems, eco-friendly hardware, and sustainable IT practices.',
+        }
     ];
+
 
     return (
         <>
-            <div className="bg-gray-100 md:py-10 pt-10">
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center' >
+                <div className='text-white md:text-3xl text-xl font-bold  uppercase'>
+                    Conference Tracks
+                </div>
+            </section>
+            <div className="md:py-10 py-10">
                 <div className="max-w-[80rem] mx-auto px-4">
-                    <h2 className="md:text-3xl text-2xl font-bold text-green-700 md:mb-6 mb-3  text-center">Conference Tracks</h2>
                     <div className="text-left md:mb-12 mb-5 ">
                         <p className="text-black text-center md:text-lg">
-                            Explore diverse and innovative research areas at the intersection of artificial intelligence, business analytics, and cloud systems. The conference invites original contributions in, but not limited to, the following tracks:
+                            Explore diverse and cutting-edge research areas shaping the future of Computer Science and Engineering. The conference welcomes original research contributions in, but not limited to, the following tracks:
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 xl:grid-cols-3 gap-8">
                         {tracks.map((track, index) => (
-                            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition text-left">
-                                <h3 className="text-xl font-semibold text-green-700 mb-2">{track.title}</h3>
+                            <div key={index} className="bg-white p-6 rounded-md shadow-md transition text-left">
+                                <h3 className="text-xl font-semibold text-black mb-2">{track.title}</h3>
                                 <p className="text-gray-700 text-[17px]">{track.description}</p>
                             </div>
                         ))}

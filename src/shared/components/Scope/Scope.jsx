@@ -4,54 +4,52 @@ import Bottom from '../Bottom/Bottom'
 function Scope() {
     return (
         <>
-            <section className='bg-[#F3F4F6]'>
-                <section className=''>
-                    <section>
-                        <div className="py-10 pt-10 md:pt-10">
-                            <div className="text-center">
-                                <h1 className="text-2xl md:text-4xl font-bold pb-6 text-[#528F62] relative inline-block after:content-[''] after:block after:w-40 ">
-                                    Scope of the Conference
-                                </h1>
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center' >
+                <div className='text-white md:text-3xl text-xl font-bold uppercase'>
+                    Scope of the Conference
+                </div>
+            </section>
+            <section className="md:px-5 px-3">
+                <section>
+                    <div className="py-12">
+                        <div className="max-w-[80rem] mx-auto flex flex-col md:flex-row items-center gap-10">
+                            <div className="w-full md:w-1/3 flex justify-center">
+                                <img src="/images/home/scope-of-conference.webp" className="rounded-xl shadow-lg transition-transform duration-500" alt="Conference Scope" />
                             </div>
-                            <div className="max-w-[77rem] mx-auto flex flex-col md:flex-row 2xl:items-center gap-5 lg:gap-15 bg-white md:p-6 p-3 shadow-lg rounded-lg">
-                                <div className="w-full grid lg:grid-cols-3 gap-6 items-center">
-                                    <div className='lg:col-span-1  mx-auto '>
-                                        <img src="/images/home/scope-of-conference.webp" className='rounded-lg mx-auto' alt="" />
-                                    </div>
-                                    <div className='lg:col-span-2'>
-                                        <p className="pb-3 md:pb-6 text-justify md:text-[18px] leading-relaxed">
-                                            The International Conference on Advances in AI, Business Analytics, and Cloud Systems (ICAABC) 2025 aims to bring together researchers, industry professionals, and academicians to explore cutting-edge innovations and applications in the intersecting domains of Artificial Intelligence (AI), Business Analytics, and Cloud Computing. The conference provides a platform to discuss advancements in AI models, intelligent decision-making systems, and emerging trends in data-driven analytics that empower organizations to optimize operations and create business value.
-                                        </p>
-                                        <p className=" text-justify md:text-[18px] leading-relaxed">
-                                            ICAABC 2025 will also focus on scalable, secure, and efficient cloud-based infrastructures that support modern AI and analytics solutions. Emphasis will be placed on topics such as machine learning deployment on cloud platforms, real-time analytics, edge-cloud synergy, and ethical AI. Through technical sessions, paper presentations, and expert panels, the conference encourages collaboration, knowledge sharing, and the development of integrated systems that drive innovation in today's data-centric world.
-                                        </p>
-                                    </div>
-                                </div>
+                            <div className="w-full md:w-2/3">
+                                <p className="pb-5 text-justify md:text-lg leading-relaxed text-gray-700">
+                                    The <strong> International Conference on Emerging Trends in Computer Science and Engineering (ICETCSE) 2025 </strong>
+                                    aims to unite researchers, industry professionals, academicians, and innovators to explore breakthroughs across
+                                    Artificial Intelligence, Business Analytics, and Cloud Computing. This premier event serves as a hub for exchanging
+                                    innovative ideas, discussing cutting-edge research, and showcasing real-world applications that redefine the
+                                    future of technology.
+                                </p>
+                                <p className="text-justify md:text-lg leading-relaxed text-gray-700">
+                                    ICETCSE 2025 emphasizes the development of intelligent, secure, and scalable solutions for modern enterprises.
+                                    Key topics include AI-driven decision-making, advanced analytics, cloud-native infrastructure, ethical AI,
+                                    and integration of emerging technologies into business and industry ecosystems. Through keynotes, paper
+                                    presentations, and interactive panels, the conference fosters collaboration and knowledge-sharing to
+                                    shape the next generation of computing innovations.
+                                </p>
                             </div>
                         </div>
-                    </section>
-                    <div className='max-w-[80rem] mx-auto md:px-3 px-2'>
-                        <div className="text-center">
-                            <h1 className="text-2xl md:text-4xl font-bold md:pb-6 text-[#528F62] relative inline-block after:content-[''] after:block after:w-40 ">
+                    </div>
+                    <div className="max-w-[80rem] mx-auto md:px-3">
+                        <div className="text-center mb-7">
+                            <h1 className="text-xl md:text-3xl font-bold text-gray-900 relative inline-block">
                                 Focused Areas of Conference
                             </h1>
                         </div>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:pt-0 pt-8 md:py-8">
-                            {["Artificial Intelligence & Machine Learning",
-                                "Natural Language Processing and Generative AI",
-                                "Business Intelligence and Predictive Analytics",
-                                "Big Data Engineering & Real-time Data Processing",
-                                "Cloud Computing and Edge Computing Architectures",
-                                "AI in Healthcare, Finance, and Smart Cities",
-                                "Data Privacy, Security & Ethical AI",
-                                "Federated Learning & Privacy-Preserving Models",
-                                "AI-Driven Automation in Business & Industry 4.0",
-                                "Blockchain and Distributed Cloud Systems",
-                                "Decision Support Systems and Knowledge Engineering",
-                                "Cloud-Native DevOps and Infrastructure as Code",
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-6 gap-3 md:px-4 mb-10">
+                            {["Artificial Intelligence & Machine Learning", "Natural Language Processing & Generative AI", "Business Intelligence & Predictive Analytics", "Big Data Engineering & Real-time Processing",
+                                "Cloud Computing & Edge Computing", "AI in Healthcare, Finance & Smart Cities", "Cybersecurity, Data Privacy & Ethical AI", "Federated Learning & Privacy-Preserving AI",
+                                "AI-Driven Automation & Industry 4.0", "Blockchain & Distributed Cloud Systems", "Decision Support Systems & Knowledge Engineering", "Cloud-Native DevOps & Infrastructure as Code",
                             ].map((item, index) => (
-                                <div key={index} className="bg-white shadow-md rounded- p-6 text-gray-800  rounded-lg border-y-3 border-y-[#528F62] hover:shadow-xl transition duration-300 ease-in-out">
-                                    <h3 className="text-base font-semibold">{item}</h3>
+                                <div key={index} className="bg-white border border-gray-200 shadow-md rounded-lg p-5 transition duration-300  flex items-center"   >
+                                    <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"   >
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                    <h3 className="md:text-base text-sm">{item}</h3>
                                 </div>
                             ))}
                         </div>

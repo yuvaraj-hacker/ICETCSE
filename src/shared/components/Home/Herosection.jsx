@@ -38,23 +38,19 @@ export default function HeroSection({ data }) {
   return (
     <>
       <section className={`bg-[url("public/images/home/hero-section.webp")] bg-no-repeat bg-cover px-5 md:py-10 h-[calc(100vh-85px)] flex items-center`}>
-        <div className="max-w-[100rem] mx-auto flex flex-col items-center justify-center md:py-10 py-10">
+        <div className="max-w-[95rem] mx-auto flex flex-col items-center justify-center md:py-10 py-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="text-center lg:text-left flex flex-col gap-2">
-              <h1 className="text-[#FF5722] font-bold md:text-8xl text-xl leading-tight">
+              <h1 className="text-[#FF5722] font-bold md:text-8xl text-3xl leading-tight">
                 ICETCSE
               </h1>
-              <h1 className="text-white font-bold italic md:text-6xl text-xl leading-tight">
-                CONFERENCE 2025
-              </h1>
-              <h1 className="text-white font-medium md:text-xl text-lg leading-tight">
-                International Conference on Advances in AI, Business Analytics, and Cloud Systems 2025
-              </h1>
+              <h1 className="text-white font-bold italic md:text-6xl text-lg   leading-tight">CONFERENCE 2025</h1>
+              <h1 className="text-white font-medium md:text-xl text-lg leading-tight">International Conference on Emerging Trends in Computer Science & Engineering</h1>
               <p className="text-white text-[clamp(1rem,2vw,1.25rem)] pb-5 leading-relaxed">
                 October 24, 2025
               </p>
-              <Link to='/paper-submission' className="w-fit">
-                <button className="px-6 py-3 rounded-lg w-fit text-white bg-[#FF5722] transition text-lg md:text-xl cursor-pointer">
+              <Link to='/paper-submission' className="w-fit lg:mx-0 mx-auto">
+                <button className="px-4 py-2 rounded-lg w-fit text-white bg-[#FF5722] transition text-lg md:text-lg cursor-pointer">
                   Paper Submission
                 </button>
               </Link>
@@ -62,21 +58,30 @@ export default function HeroSection({ data }) {
           </div>
         </div>
       </section>
-      <section className="py-10 flex flex-col gap-10">
+      <section className="py-10 flex flex-col md:gap-10 gap-7">
         <section className=" ">
           <div className="container w-full xl:w-[90%] 2xl:w-[65%] mx-auto px-4 sm:px-6 lg:px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-4 gap-4">
               <div className="flex justify-center items-center md:px-2 px-2">
-                <img alt="About Image" className="rounded-lg shadow-lg" src="/images/home/aboutimage.webp" />
+                <img alt="About Image" className="rounded-lg shadow-lg" src="/images/home/cs.jpg" />
               </div>
               <div>
-                <h2 className="md:text-3xl text-xl font-semibold text-black mb-4">About the Event</h2>
-                <div> <p className="text-base lg:text-lg mb-4 text-justify">Welcome to ICETCSE, the premier event for exploring the cutting edge of Artificial Intelligence (AI), Business Analytics, and Cloud Systems. Our conference brings together visionary leaders, innovators, and industry pioneers to share insights, drive innovation, and inspire the future of technology in business. </p>
+                <h2 className="md:text-3xl text-xl font-semibold text-black md:mb-4 mb-2 text-left">About the Event</h2>
+                <div>
+                  <p className="text-base lg:text-lg mb-4 text-justify">Welcome to ICETCSE, the premier event for exploring the forefront of innovation in Computer Science and Engineering.
+                    Our conference brings together visionary researchers, industry experts, academic scholars, and technology pioneers to share insights, showcase groundbreaking research, and inspire the next generation of advancements in the field.
+                  </p>
                 </div>
-                <div> <p className="text-base lg:text-lg mb-4 text-justify">At ICETCSE, we are dedicated to fostering collaboration across disciplines, empowering businesses to harness the potential of AI, transform data into actionable insights, and optimize operations through state-of-the-art cloud solutions. Whether you’re a technology enthusiast, a seasoned professional, or a decision-maker, our conference offers an unparalleled platform to network, learn, and shape tomorrow’s digital landscape.</p>
+                <div>
+                  <p className="text-base lg:text-lg mb-4 text-justify">
+                    At ICETCSE, we are committed to fostering collaboration across diverse domains — from artificial intelligence, cybersecurity, and cloud computing to IoT, robotics, quantum computing, and software engineering. Whether you are a technology enthusiast, a seasoned professional, or an aspiring innovator, ICETCSE offers an unparalleled platform to exchange knowledge, explore emerging trends, and shape the future of technology and engineering.                    </p>
                 </div>
-                <div className="bg-[#E64A19] p-3 w-fit rounded-lg text-white cursor-pointer">
-                  Read More
+                <div className="w-fit">
+                  <Link to='about' className="w-fit">
+                    <div className="bg-[#E64A19] p-3   rounded-lg text-white cursor-pointer w-fit md:mx-0 mx-auto">
+                      Read More
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -90,8 +95,9 @@ export default function HeroSection({ data }) {
             <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
               <div>
                 <p className="text-base lg:text-lg mb-4 text-justify">
-                  The International Conference on Advances in AI, Business Analytics, and Cloud Systems 2025 provides an interdisciplinary forum for researchers, practitioners, and industry leaders to present and discuss innovations, challenges, and trends in Artificial Intelligence, Business Analytics, and Cloud Computing. The conference aims to explore advanced algorithms, data-driven strategies, scalable architectures, and intelligent solutions that drive transformation across industries. Topics of interest include, but are not limited to, machine learning, predictive analytics, cloud infrastructure, intelligent automation, big data platforms, and AI-driven decision support systems.
-                </p>
+                  The International Conference on Emerging Trends in Computer Science & Engineering (ICETCSE) 2025 serves as a multidisciplinary platform for researchers, practitioners, and industry leaders to present and discuss cutting-edge innovations, challenges, and future directions in the field of computer science and engineering.
+                  The conference seeks to explore advancements in algorithms, intelligent systems, secure architectures, sustainable technologies, and emerging solutions that are transforming industries and society.
+                  Topics of interest include, but are not limited to, artificial intelligence, cybersecurity, cloud computing, big data analytics, Internet of Things (IoT), robotics, quantum computing, software engineering, computer vision, natural language processing, and next-generation networks.                </p>
                 {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
                   <div className="text-lg lg:text-[19px] mb-4 text-justify">
                     <h1 className="md:text-2xl mb-2 text-[#528F62] font-semibold">Artificial Intelligence</h1>
@@ -146,7 +152,7 @@ export default function HeroSection({ data }) {
                     <p className="md:text-[20px] mt-2 text-[#E64A19] font-semibold text-center w-full transform transition-transform duration-500 hover:scale-110  ">
                       {item.date}
                     </p>
-                    <h2 className="text-lg text-black text-center">
+                    <h2 className="text-base text-black text-center">
                       {item.title}
                     </h2>
                   </div>
@@ -155,7 +161,7 @@ export default function HeroSection({ data }) {
             </div>
           </div>
         </section>
-      </section>
+      </section >
       <ContactSection />
     </>
   );

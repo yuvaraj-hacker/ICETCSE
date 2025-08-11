@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ContactSection = () => {
     return (
@@ -7,7 +8,7 @@ const ContactSection = () => {
                 <div className="grid md:grid-cols-3 gap-8 mt-8">
                     <div className='bg-white p-4 rounded-lg flex flex-col gap-4 justify-center'>
                         <p className="font-semibold"><i class="fi fi-sr-land-layer-location flex justify-center items-center text-2xl text-[#FF5722]"></i></p>
-                        <p className=" md:text-2xl text-center"> Baghdad, Iraq</p>
+                        <p className=" md:text-2xl text-center">Baghdad, Iraq</p>
                     </div>
                     <div className='bg-white p-4 rounded-lg flex flex-col gap-4 justify-center'>
                         <p className="font-semibold"><i class="fi fi-ss-calendar flex justify-center items-center text-2xl text-[#FF5722]"></i></p>
@@ -19,9 +20,11 @@ const ContactSection = () => {
                     </div>
                 </div>
                 <div className='text-center mt-10'>
-                    <button className='bg-[#FF5722] text-white cursor-pointer p-3 rounded-lg text-center'>
-                        Register Now
-                    </button>
+                    <Link to='/paper-submission'>
+                        <button className='bg-[#FF5722] text-white cursor-pointer p-3 rounded-lg text-center'>
+                            Register Now
+                        </button>
+                    </Link>
                 </div>
             </div>
         </section>

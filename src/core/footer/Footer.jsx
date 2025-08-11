@@ -5,19 +5,19 @@ export default function Footer() {
   return (
     <section>
       <footer className="bg-[#F3F5D8] text-black py-5 pb-5 flex justify-center">
-        <div className="w-3/5">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-6">
-            <div className="text-left flex flex-col gap-4">
-              <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden w-fit focus:opacity-80" href="#" aria-label="Brand">
+        <div className="max-w-[80rem] mx-auto md:px-4  px-2">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 py-6">
+            <div className="text-left flex flex-col justify-center gap-4">
+              <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden w-fit focus:opacity-80 mx-auto" href="#" aria-label="Brand">
                 <Link to='/'>
                   <img className='lg:w-28 w-40 md:h-16 h-15' src="/images/home/ICETCSElogo.jpg" alt="LOGO" />
                 </Link>
               </a>
-              <p className="">The International Conference on Advances in AI, Business Analytics, and Cloud Systems brings together global experts to share innovations in AI, business analytics, and cloud technologies.</p>
+              <p className="text-center md:text-base text-sm" >The International Conference on Advances in AI, Business Analytics, and Cloud Systems brings together global experts to share innovations in AI, business analytics, and cloud technologies.</p>
             </div>
             <div className="text-center">
-              <h3 className="text-xl font-bold text-black mb-3">Conference Information</h3>
-              <ul className="space-y-2 md:text-base">
+              <h3 className="text-xl font-bold text-black mb-3">Quick Links</h3>
+              <ul className="space-y-2 md:text-base text-sm">
                 <li>
                   <a className=" " href="/">Home</a>
                 </li>
@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
             <div className="text-center">
               <h3 className="text-xl font-bold text-black mb-3">Contact</h3>
-              <ul className="space-y-2 md:text-base">
+              <ul className="space-y-2 md:text-base text-sm">
                 <li>
                   Email: <a href="mailto:support@acsitconference.com" className="">contact.icacsit@gmail.com</a>
                 </li>
@@ -44,7 +44,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="border-t border-black pt-4 md:text-sm text-sm text-center text-black">
+          <div className="border-t border-black pt-4 md:text-sm text-xs text-center text-black">
             <p>© 2025 ICETCSE. All rights reserved.</p>
           </div>
         </div>

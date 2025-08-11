@@ -4,16 +4,13 @@ function Edit({ position, name, location, department }) {
     return (
         <>
             <div className="overflow-x-auto">
-                <table className="table-auto min-w-full border border-gray-200 shadow-sm rounded-lg">
+                <div className="table-auto min-w-full border rounded-md border-gray-200">
                     <div>
-                        <div className="border-b p-3 ">
-                            <div className="font-medium ">Dr. {name}</div>
-                            <div className=" "> {department}, </div>
-                            <div className=" "> {position}, {location} </div>
-                            {/* <div className=" "> {location} </div> */}
+                        <div className=" p-3 ">
+                            <div className=" "><span className='font-medium'>Dr. {name},</span> {position}, {location}</div>
                         </div>
                     </div>
-                </table>
+                </div>
             </div>
         </>
     )
