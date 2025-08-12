@@ -21,10 +21,12 @@ function Editorial() {
         { name: "Waseem", position: "Jiangsu University", location: "China" },
         { name: "Jay Sarraf", position: "KIIT University", location: "India" },
         { name: "Asef Shahriar", position: "Khulna University of Engineering & Technology", location: "Bangladesh" },
+        { name: "K. Nehru", position: "SNS College of Technology", location: "India" },
+        { name: "A. Gabriel", position: "Sharda University", location: "Uzbekistan" },
     ];
     return (
         <>
-            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center'>
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[15vh] w-full flex items-center justify-center'>
                 <div className='text-white md:text-3xl text-xl font-bold uppercase'>
                     Editorial Board
                 </div>

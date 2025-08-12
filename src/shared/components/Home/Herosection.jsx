@@ -50,7 +50,7 @@ export default function HeroSection({ data }) {
                 October 24, 2025
               </p>
               <Link to='/paper-submission' className="w-fit lg:mx-0 mx-auto">
-                <button className="px-4 py-2 rounded-lg w-fit text-white bg-[#FF5722] transition text-lg md:text-lg cursor-pointer">
+                <button className="px-4 py-2 rounded-lg w-fit text-white bg-[#FF5722] transition text-sm md:text-lg cursor-pointer">
                   Paper Submission
                 </button>
               </Link>
@@ -62,14 +62,13 @@ export default function HeroSection({ data }) {
         <section className=" ">
           <div className="container w-full xl:w-[90%] 2xl:w-[65%] mx-auto px-4 sm:px-6 lg:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-4 gap-4">
-              <div className="flex justify-center items-center md:px-2 px-2">
+              <div className="flex justify-center items-center md:px-2">
                 <img alt="About Image" className="rounded-lg shadow-lg" src="/images/home/cs.jpg" />
               </div>
               <div>
                 <h2 className="md:text-3xl text-xl font-semibold text-black md:mb-4 mb-2 text-left">About the Event</h2>
                 <div>
-                  <p className="text-base lg:text-lg mb-4 text-justify">Welcome to ICETCSE, the premier event for exploring the forefront of innovation in Computer Science and Engineering.
-                    Our conference brings together visionary researchers, industry experts, academic scholars, and technology pioneers to share insights, showcase groundbreaking research, and inspire the next generation of advancements in the field.
+                  <p className="text-base lg:text-lg mb-4 text-justify">Welcome to ICETCSE, the premier event for exploring the forefront of innovation in Computer Science and Engineering. Our conference brings together visionary researchers, industry experts, academic scholars, and technology pioneers to share insights, showcase groundbreaking research, and inspire the next generation of advancements in the field.
                   </p>
                 </div>
                 <div>

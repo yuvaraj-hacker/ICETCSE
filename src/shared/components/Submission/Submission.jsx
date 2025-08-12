@@ -168,10 +168,10 @@ function Submission() {
                     </div>
                 </section>
             </section > */}
-            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center' >
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[15vh] w-full flex items-center justify-center' >
                 <div className='text-white md:text-3xl text-xl font-bold uppercase'>
                     New Paper Submission
-                </div>
+                </div>  
             </section>
             <section className="pb-10" id="paper-submission">
                 <div className="w-full  max-w-[75rem] pt-10 px-4 flex flex-col lg:flex-row gap-8 items-center justify-center mx-auto">
@@ -198,17 +198,19 @@ function Submission() {
                                 <select id="Paper_Track" name="Paper_Track" className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-1 focus:ring-green-600 focus:border-green-600 focus:outline-none" required>
                                     <option value="">Select Paper Track</option>
                                     <option>Artificial Intelligence & Machine Learning</option>
-                                    <option>Business Analytics & Intelligence</option>
+                                    <option>Data Science & Big Data Analytics</option>
                                     <option>Cloud Computing & Virtualization</option>
-                                    <option>Big Data Technologies</option>
-                                    <option>Data Mining & Predictive Modeling</option>
-                                    <option>AI in Healthcare & Smart Cities</option>
+                                    <option>Cybersecurity & Information Assurance</option>
+                                    <option>Computer Vision & Image Processing</option>
                                     <option>Natural Language Processing</option>
-                                    <option>Deep Learning & Neural Networks</option>
-                                    <option>Cloud Security & Governance</option>
-                                    <option>AI Ethics & Responsible AI</option>
-                                    <option>Edge & Fog Computing</option>
-                                    <option>IoT and AI Integration</option>
+                                    <option>Blockchain & Distributed Ledger Technologies</option>
+                                    <option>IoT and Smart Systems</option>
+                                    <option>Software Engineering & Agile Methodologies</option>
+                                    <option>Human-Computer Interaction</option>
+                                    <option>Embedded Systems & Robotics</option>
+                                    <option>Quantum Computing & Advanced Algorithms</option>
+                                    <option>High Performance & Parallel Computing</option>
+                                    <option>Green Computing & Sustainable Technologies</option>
                                 </select>
                             </div>
                             <div>

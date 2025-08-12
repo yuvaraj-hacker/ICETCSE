@@ -117,7 +117,7 @@ const Header = () => {
         </nav>
       </header> */}
       <header className="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3 ">
-        <nav className="max-w-[95rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
+        <nav className="max-w-[98rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
           <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">
             <Link to='/'>
               <img className='lg:w-30 w-28 md:h-14 h-18' src="/images/home/ICETCSElogo.jpg" alt="LOGO" />
@@ -137,18 +137,20 @@ const Header = () => {
               <span className="sr-only">Toggle</span>
             </button>
             <div className=''>
-              <button type="button" className="py-2 px-3 inline-flex items-center cursor-pointer gap-x-2 text-sm font-medium rounded-md  bg-[#FF531A] text-white disabled:pointer-events-none">
-                Paper Submission
-              </button>
+              <Link to='paper-submission'>
+                <button type="button" className="py-2 px-3 inline-flex items-center cursor-pointer gap-x-2 text-sm font-medium rounded-md  bg-[#FF531A] text-white disabled:pointer-events-none">
+                  Paper Submission
+                </button>
+              </Link>
             </div>
           </div>
           <div id="hs-navbar-alignment" ref={dropdownRef} className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:grow-0 sm:basis-auto sm:block sm:order-2" aria-labelledby="hs-navbar-alignment-collapse"  >
             <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:mt-0 sm:ps-5">
-              <a to='/' onClick={() => setIsDropdownOpen(false)} className=" text-black focus:outline-hidden text-base" href="/" aria-current="page">
+              <a to='/' onClick={() => setIsDropdownOpen(false)} className=" text-black focus:outline-hidden text-base font-medium" href="/" aria-current="page">
                 Home
               </a>
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--adaptive:adaptive]">
-                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdown} className={`hs-dropdown-toggle flex items-center w-full text-black text-base gap-1 cursor-pointer transition-all duration-300 ${isDropdownOpen ? 'text-blue-400' : ''}`}
+                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdown} className={`hs-dropdown-toggle flex items-center w-full font-medium text-black text-base gap-1 cursor-pointer transition-all duration-300 ${isDropdownOpen ? 'text-blue-400' : ''}`}
                   aria-haspopup="menu" aria-expanded={isDropdownOpen} aria-label="Mega Menu">
                   About Us
                   <svg className={`w-4 h-4 transition-transform duration-300 flex items-center ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"   >
@@ -169,7 +171,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--adaptive:adaptive]">
-                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdow} className={`hs-dropdown-toggle flex items-center w-full text-black text-base gap-1 cursor-pointer  ${isDropdownOpe ? 'text-blue-400' : ''}`} aria-haspopup="menu" aria-expanded={isDropdownOpe} aria-label="Mega Menu"   >
+                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdow} className={`hs-dropdown-toggle flex items-center w-full font-medium text-black text-base gap-1 cursor-pointer  ${isDropdownOpe ? 'text-blue-400' : ''}`} aria-haspopup="menu" aria-expanded={isDropdownOpe} aria-label="Mega Menu"   >
                   Author Desk's
                   <svg className={`w-4 h-4 transition-transform duration-300 flex items-center ${isDropdownOpe ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"  >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
@@ -187,7 +189,7 @@ const Header = () => {
                   </a>
                 </div>
               </div>
-              <a className="text-black text-base sm:pb-0 pb-5" href="/contact">
+              <a className="text-black text-base sm:pb-0 pb-5 font-medium" href="/contact">
                 Contact Us
               </a>
               {/* <Link

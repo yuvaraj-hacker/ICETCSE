@@ -4,7 +4,7 @@ import Bottom from '../Bottom/Bottom'
 function Scope() {
     return (
         <>
-            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center' >
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[15vh] w-full flex items-center justify-center' >
                 <div className='text-white md:text-3xl text-xl font-bold uppercase'>
                     Scope of the Conference
                 </div>
@@ -12,9 +12,9 @@ function Scope() {
             <section className="md:px-5 px-3">
                 <section>
                     <div className="py-12">
-                        <div className="max-w-[80rem] mx-auto flex flex-col md:flex-row items-center gap-10">
+                        <div className="max-w-[80rem] mx-auto flex flex-col lg:flex-row items-center md:gap-10 gap-5">
                             <div className="w-full md:w-1/3 flex justify-center">
-                                <img src="/images/home/scope-of-conference.webp" className="rounded-xl shadow-lg transition-transform duration-500" alt="Conference Scope" />
+                                <img src="/images/home/scope.webp" className="rounded-xl shadow-lg transition-transform duration-500" alt="Conference Scope" />
                             </div>
                             <div className="w-full md:w-2/3">
                                 <p className="pb-5 text-justify md:text-lg leading-relaxed text-gray-700">
@@ -43,15 +43,14 @@ function Scope() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-6 gap-3 md:px-4 mb-10">
                             {["Artificial Intelligence & Machine Learning", "Natural Language Processing & Generative AI", "Business Intelligence & Predictive Analytics", "Big Data Engineering & Real-time Processing",
                                 "Cloud Computing & Edge Computing", "AI in Healthcare, Finance & Smart Cities", "Cybersecurity, Data Privacy & Ethical AI", "Federated Learning & Privacy-Preserving AI",
-                                "AI-Driven Automation & Industry 4.0", "Blockchain & Distributed Cloud Systems", "Decision Support Systems & Knowledge Engineering", "Cloud-Native DevOps & Infrastructure as Code",
-                            ].map((item, index) => (
-                                <div key={index} className="bg-white border border-gray-200 shadow-md rounded-lg p-5 transition duration-300  flex items-center"   >
-                                    <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"   >
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                                    </svg>
-                                    <h3 className="md:text-base text-sm">{item}</h3>
-                                </div>
-                            ))}
+                                "AI-Driven Automation & Industry 4.0", "Blockchain & Distributed Cloud Systems", "Decision Support Systems & Knowledge Engineering", "Cloud-Native DevOps & Infrastructure as Code",].map((item, index) => (
+                                    <div key={index} className="bg-white border border-gray-200 shadow-md rounded-lg md:p-5 p-3 transition duration-300 flex items-center" >
+                                        <svg className="w-6 h-6 text-green-600 mr-3 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"   >
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <h3 className="md:text-base text-sm">{item}</h3>
+                                    </div>
+                                ))}
                         </div>
                     </div>
                 </section>

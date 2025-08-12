@@ -31,7 +31,7 @@ function Dates() {
 
     return (
         <>
-            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[10vh] w-full flex items-center justify-center'>
+            <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[15vh] w-full flex items-center justify-center'>
                 <div className='text-white md:text-3xl text-xl font-bold  uppercase    '>
                     Key Dates
                 </div>
