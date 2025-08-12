@@ -72,14 +72,17 @@ export default function HeroSection({ data }) {
                 </div>
                 <div>
                   <p className="text-base lg:text-lg mb-4 text-justify">
-                    At ICETCSE, we are committed to fostering collaboration across diverse domains — from artificial intelligence, cybersecurity, and cloud computing to IoT, robotics, quantum computing, and software engineering. Whether you are a technology enthusiast, a seasoned professional, or an aspiring innovator, ICETCSE offers an unparalleled platform to exchange knowledge, explore emerging trends, and shape the future of technology and engineering.                    </p>
+                    At ICETCSE, we are committed to fostering collaboration across diverse domains — from artificial intelligence, cybersecurity, and cloud computing to IoT, robotics, quantum computing, and software engineering. Whether you are a technology enthusiast, a seasoned professional, or an aspiring innovator, ICETCSE offers an unparalleled platform to exchange knowledge, explore emerging trends, and shape the future of technology and engineering.
+                  </p>
                 </div>
-                <div className="w-fit">
-                  <Link to='about' className="w-fit">
-                    <div className="bg-[#E64A19] p-3  hover:scale-95 duration-300  rounded-lg text-white cursor-pointer w-fit md:mx-0 mx-auto">
-                      Read More
-                    </div>
-                  </Link>
+                <div className="  md:text-left text-center">
+                  <div className="w-fit mx-auto md:mx-0">
+                    <Link to='/about' className="w-fit">
+                      <div className="bg-[#E64A19] p-3  hover:scale-95 duration-300  rounded-lg text-white cursor-pointer w-fit md:mx-0 mx-auto">
+                        Read More
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
