@@ -138,7 +138,7 @@ const Header = () => {
             </button>
             <div className=' md:block hidden'>
               <Link to='paper-submission'>
-                <button type="button" className="py-2 px-3 inline-flex items-center cursor-pointer gap-x-2 md:text-sm text-xs font-medium rounded-md  bg-[#FF531A] text-white disabled:pointer-events-none">
+                <button type="button" className="py-2 px-3 hover:scale-95 duration-300 inline-flex items-center cursor-pointer gap-x-2 md:text-sm text-xs font-medium rounded-md  bg-[#FF531A] text-white disabled:pointer-events-none">
                   Paper Submission
                 </button>
               </Link>

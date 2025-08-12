@@ -21,7 +21,7 @@ const ContactSection = () => {
                 </div>
                 <div className='text-center mt-10'>
                     <Link to='/paper-submission'>
-                        <button className='bg-[#FF5722] text-white cursor-pointer p-3 rounded-lg text-center'>
+                        <button className='bg-[#FF5722] text-white cursor-pointer p-3 hover:scale-95 duration-300 rounded-lg text-center'>
                             Register Now
                         </button>
                     </Link>
