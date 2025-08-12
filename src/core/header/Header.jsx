@@ -150,7 +150,7 @@ const Header = () => {
                 Home
               </a>
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--adaptive:adaptive]">
-                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdown} className={`hs-dropdown-toggle flex items-center w-full font-medium text-black text-base gap-1 cursor-pointer transition-all duration-300 ${isDropdownOpen ? 'text-blue-400' : ''}`}
+                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdown} className={`hs-dropdown-toggle flex items-center w-full font-medium text-black text-base gap-1 cursor-pointer transition-all duration-300 ${isDropdownOpen ? '' : ''}`}
                   aria-haspopup="menu" aria-expanded={isDropdownOpen} aria-label="Mega Menu">
                   About Us
                   <svg className={`w-4 h-4 transition-transform duration-300 flex items-center ${isDropdownOpen ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"   >
@@ -171,7 +171,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--adaptive:adaptive]">
-                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdow} className={`hs-dropdown-toggle flex items-center w-full font-medium text-black text-base gap-1 cursor-pointer  ${isDropdownOpe ? 'text-blue-400' : ''}`} aria-haspopup="menu" aria-expanded={isDropdownOpe} aria-label="Mega Menu"   >
+                <button id="hs-navbar-example-dropdown" type="button" onClick={toggleDropdow} className={`hs-dropdown-toggle flex items-center w-full font-medium text-black text-base gap-1 cursor-pointer  ${isDropdownOpe ? '' : ''}`} aria-haspopup="menu" aria-expanded={isDropdownOpe} aria-label="Mega Menu"   >
                   Author Desk's
                   <svg className={`w-4 h-4 transition-transform duration-300 flex items-center ${isDropdownOpe ? 'rotate-180' : 'rotate-0'}`} fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"  >
                     <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
