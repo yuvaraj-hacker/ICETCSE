@@ -120,7 +120,7 @@ const Header = () => {
         <nav className="max-w-[98rem] w-full mx-auto px-4 flex flex-wrap basis-full items-center justify-between">
           <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">
             <Link to='/'>
-              <img className='lg:w-30 w-28 md:h-14 h-18' src="/images/home/ICETCSElogo.jpg" alt="LOGO" />
+              <img className='lg:w-30 w-26 md:h-14 h-14' src="/images/home/ICETCSElogo.jpg" alt="LOGO" />
             </Link>
           </a>
           <div className="sm:order-3 flex items-center gap-x-2">
@@ -136,7 +136,7 @@ const Header = () => {
               </svg>
               <span className="sr-only">Toggle</span>
             </button>
-            <div className=''>
+            <div className=' md:block hidden'>
               <Link to='paper-submission'>
                 <button type="button" className="py-2 px-3 inline-flex items-center cursor-pointer gap-x-2 md:text-sm text-xs font-medium rounded-md  bg-[#FF531A] text-white disabled:pointer-events-none">
                   Paper Submission
