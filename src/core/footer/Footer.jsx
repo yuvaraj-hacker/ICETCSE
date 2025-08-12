@@ -13,7 +13,7 @@ export default function Footer() {
                   <img className='lg:w-28 w-40 md:h-16 h-15' src="/images/home/ICETCSElogo.jpg" alt="LOGO" />
                 </Link>
               </a>
-              <p className="text-center md:text-base text-sm" >The International Conference on Advances in AI, Business Analytics, and Cloud Systems brings together global experts to share innovations in AI, business analytics, and cloud technologies.</p>
+              <p className="text-center md:text-base text-sm">The International Conference on Advances in AI, Business Analytics, and Cloud Systems brings together global experts to share innovations in AI, business analytics, and cloud technologies.</p>
             </div>
             <div className="text-center">
               <h3 className="text-xl font-bold text-black mb-3">Quick Links</h3>
