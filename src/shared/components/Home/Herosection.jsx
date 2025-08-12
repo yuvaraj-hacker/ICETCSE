@@ -37,7 +37,7 @@ export default function HeroSection({ data }) {
 
   return (
     <>
-      <section className={`bg-[url("public/images/home/hero-section.webp")] bg-no-repeat bg-cover px-5 md:py-10 h-[calc(100vh-85px)] flex items-center`}>
+      <section className={`bg-[url("/images/home/hero-section.webp")] bg-no-repeat bg-cover px-5 md:py-10 h-[calc(100vh-85px)] flex items-center`}>
         <div className="max-w-[95rem] mx-auto flex flex-col items-center justify-center md:py-10 py-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div className="text-center lg:text-left flex flex-col gap-2">
@@ -47,7 +47,7 @@ export default function HeroSection({ data }) {
               <h1 className="text-white font-bold italic md:text-6xl text-lg   leading-tight">CONFERENCE 2025</h1>
               <h1 className="text-white font-medium md:text-xl text-lg leading-tight">International Conference on Emerging Trends in Computer Science & Engineering</h1>
               <p className="text-white text-[clamp(1rem,2vw,1.25rem)] pb-5 leading-relaxed">
-                25<sup>th</sup> March, 2026 
+                25<sup>th</sup> March, 2026
               </p>
               <Link to='/paper-submission' className="w-fit lg:mx-0 mx-auto">
                 <button className="px-4 py-2 rounded-lg w-fit text-white bg-[#FF5722] transition text-sm md:text-lg cursor-pointer">
@@ -94,7 +94,7 @@ export default function HeroSection({ data }) {
             <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
               <div>
                 <p className="text-base lg:text-lg mb-4 text-justify">
-                  The International Conference on Emerging Trends in Computer Science & Engineering (ICETCSE) 2025 serves as a multidisciplinary platform for researchers, practitioners, and industry leaders to present and discuss cutting-edge innovations, challenges, and future directions in the field of computer science and engineering.
+                  The International Conference on Emerging Trends in Computer Science & Engineering 2025 serves as a multidisciplinary platform for researchers, practitioners, and industry leaders to present and discuss cutting-edge innovations, challenges, and future directions in the field of computer science and engineering.
                   The conference seeks to explore advancements in algorithms, intelligent systems, secure architectures, sustainable technologies, and emerging solutions that are transforming industries and society.
                   Topics of interest include, but are not limited to, artificial intelligence, cybersecurity, cloud computing, big data analytics, Internet of Things (IoT), robotics, quantum computing, software engineering, computer vision, natural language processing, and next-generation networks.                </p>
                 {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-5">
@@ -147,7 +147,7 @@ export default function HeroSection({ data }) {
             <div className="max-w-[80rem] mx-auto md:px-5 px-3">
               <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-center gap-5 md:gap-10">
                 {deadlines.map((item, index) => (
-                  <div key={index} className="h-auto gap-2 flex flex-col justify-between items-center rounded-xl shadow-lg border border-[#FEDE68] hover:shadow-2xl transition-all duration-300 bg-white p-6"   >
+                  <div key={index} className="h-auto gap-2 flex flex-col justify-between items-center rounded-lg shadow-lg border border-[#FEDE68] hover:shadow-2xl transition-all duration-300 bg-white p-6"   >
                     <p className="md:text-[20px] mt-2 text-[#E64A19] font-semibold text-center w-full transform transition-transform duration-500 hover:scale-110  ">
                       {item.date}
                     </p>

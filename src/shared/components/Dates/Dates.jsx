@@ -41,7 +41,7 @@ function Dates() {
                     <div className="max-w-[80rem] mx-auto md:px-5 px-3">
                         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-center gap-5 md:gap-10">
                             {deadlines.map((item, index) => (
-                                <div key={index} className="h-auto gap-2 flex flex-col justify-between items-center rounded-xl shadow-lg border border-[#FEDE68] hover:shadow-2xl transition-all duration-300 bg-white p-6"   >
+                                <div key={index} className="h-auto gap-2 flex flex-col justify-between items-center rounded-lg shadow-lg border border-[#FEDE68] hover:shadow-2xl transition-all duration-300 bg-white p-6"   >
                                     <p className="md:text-[20px] mt-2 text-[#E64A19] font-semibold text-center w-full transform transition-transform duration-500 hover:scale-110  ">
                                         {item.date}
                                     </p>

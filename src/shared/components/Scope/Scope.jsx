@@ -14,11 +14,11 @@ function Scope() {
                     <div className="py-12">
                         <div className="max-w-[80rem] mx-auto flex flex-col lg:flex-row items-center md:gap-10 gap-5">
                             <div className="w-full md:w-1/3 flex justify-center">
-                                <img src="/images/home/scope.webp" className="rounded-xl shadow-lg transition-transform duration-500" alt="Conference Scope" />
+                                <img src="/images/home/scope.webp" className="rounded-lg shadow-lg transition-transform duration-500" alt="Conference Scope" />
                             </div>
                             <div className="w-full md:w-2/3">
                                 <p className="pb-5 text-justify md:text-lg leading-relaxed text-gray-700">
-                                    The <strong> International Conference on Emerging Trends in Computer Science and Engineering (ICETCSE) 2025 </strong>
+                                    The <strong> International Conference on Emerging Trends in Computer Science and Engineering 2025 </strong>
                                     aims to unite researchers, industry professionals, academicians, and innovators to explore breakthroughs across
                                     Artificial Intelligence, Business Analytics, and Cloud Computing. This premier event serves as a hub for exchanging
                                     innovative ideas, discussing cutting-edge research, and showcasing real-world applications that redefine the

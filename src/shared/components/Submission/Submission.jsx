@@ -171,11 +171,11 @@ function Submission() {
             <section className='bg-[url("/images/home/contact-image.webp")] bg-no-repeat bg-center bg-cover md:h-[20vh] h-[15vh] w-full flex items-center justify-center' >
                 <div className='text-white md:text-3xl text-xl font-bold uppercase'>
                     New Paper Submission
-                </div>  
+                </div>
             </section>
             <section className="pb-10" id="paper-submission">
                 <div className="w-full  max-w-[75rem] pt-10 px-4 flex flex-col lg:flex-row gap-8 items-center justify-center mx-auto">
-                    <div className="w-full lg:w-2/3 bg-white shadow-lg rounded-2xl p-8 order-2 lg:order-1">
+                    <div className="w-full lg:w-2/3 bg-white shadow-lg rounded-lg p-8 order-2 lg:order-1">
                         <form className="space-y-6" onSubmit={handleSubmit}>
                             <div>
                                 <label htmlFor="Paper_Title" className="block text-lg font-medium text-gray-700">Paper Title</label>
@@ -222,7 +222,7 @@ function Submission() {
                             </div>
                         </form>
                     </div>
-                    <div className="w-full lg:w-1/2 bg-white shadow-lg rounded-2xl p-8 order-1 lg:order-2">
+                    <div className="w-full lg:w-1/2 bg-white shadow-lg rounded-lg p-8 order-1 lg:order-2">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Submission Guidelines</h2>
                         <ul className="space-y-3 text-gray-700">
                             <li>Papers must be written in English.</li>

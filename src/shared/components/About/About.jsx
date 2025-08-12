@@ -18,7 +18,7 @@ function About() {
                                 <div className="max-w-[70rem] mx-auto flex flex-col md:flex-row 2xl:items-center gap-5 lg:gap-15">
                                     <div className="w-full">
                                         <p className="pb-3 md:pb-6 text-justify md:text-[18px] leading-relaxed mb-2">
-                                            The International Conference on Emerging Trends in Computer Science & Engineering (ICETCSE) 2025 is a premier global forum that unites researchers, industry experts, and academic scholars to explore the latest innovations and advancements in computer science and engineering.                                        </p>
+                                            The International Conference on Emerging Trends in Computer Science & Engineering 2025 is a premier global forum that unites researchers, industry experts, and academic scholars to explore the latest innovations and advancements in computer science and engineering.                                        </p>
                                         <div className='grid lg:grid-cols-2 gap-5 items-center mb-5'>
                                             <div>
                                                 <img src="/images/home/cs.jpg" className='rounded-md' alt="" />
