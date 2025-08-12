@@ -8,12 +8,12 @@ export default function Footer() {
         <div className="max-w-[80rem] mx-auto md:px-4  px-2">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 py-6">
             <div className="text-left flex flex-col justify-center gap-4">
-              <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden w-fit focus:opacity-80 mx-auto" href="#" aria-label="Brand">
+              <a className="flex-none text-xl font-semibold dark:text-white focus:outline-hidden w-fit focus:opacity-80 md:mx-0 mx-auto" href="#" aria-label="Brand">
                 <Link to='/'> <img className='lg:w-28 w-40 md:h-16 h-15' src="/images/home/ICETCSElogo.jpg" alt="LOGO" /></Link>
               </a>
-              <p className="text-left md:text-base text-sm">  The International Conference on Emerging Trends in Computer Science & Engineering unites global experts to share innovations, research, and advancements shaping the future of computer science and engineering.</p>
+              <p className="md:text-left text-center md:text-base text-sm">  The International Conference on Emerging Trends in Computer Science & Engineering unites global experts to share innovations, research, and advancements shaping the future of computer science and engineering.</p>
             </div>
-            <div className="text-left lg:mx-auto">
+            <div className="md:text-left text-center lg:mx-auto">
               <h3 className="text-xl font-bold text-black mb-3">Quick Links</h3>
               <ul className="space-y-2 md:text-base text-sm">
                 <li>
@@ -30,7 +30,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="text-left ">
+            <div className="md:text-left text-center ">
               <h3 className="text-xl font-bold text-black mb-3">Contact</h3>
               <ul className="space-y-2 md:text-base text-sm">
                 <li>

@@ -39,7 +39,7 @@ function About() {
                     </section>
                 </section>
             </section>
-            <div className="bg-white rounded-lg max-w-[70rem] mx-auto mb-14 md:px-2 px-2">
+            <div className="bg-white rounded-lg max-w-[70rem] mx-auto mb-14 md:px-2 px-3">
                 <h2 className="md:text-3xl text-2xl font-semibold text-center text-black mb-5">
                     Conference Objectives
                 </h2>

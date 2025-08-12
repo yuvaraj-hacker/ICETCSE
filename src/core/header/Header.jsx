@@ -111,7 +111,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-   <div>
+       <div>
             Paper Submission
           </div>
         </nav>

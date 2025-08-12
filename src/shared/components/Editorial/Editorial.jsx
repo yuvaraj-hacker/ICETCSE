@@ -35,7 +35,7 @@ function Editorial() {
             </section>
             <section className='pt-10 pb-5'>
                 <section className=''>
-                    <div className="max-w-[90%] lg:max-w-[80%] 2xl:max-w-[70%] mx-auto flex flex-col md:flex-col 2xl:items-start gap-5 lg:gap-5">
+                    <div className="px-3 lg:max-w-[80%] 2xl:max-w-[70%] mx-auto flex flex-col md:flex-col 2xl:items-start gap-5 lg:gap-5">
                         <div className="text-justify md:text-[18px] leading-relaxed">The Editorial Board of the International Conference on Emerging Trends in Computer Science & Engineering plays a pivotal role in upholding the academic quality and excellence of the event.  Our board members oversee the peer-review process, ensure adherence to the highest standards of research ethics, and provide strategic guidance that reflects the latest developments across diverse domains of computer science and engineering. Their expertise helps shape a conference program that fosters innovation, collaboration, and impactful research contributions.</div>
                     </div>
                     <div className='rounded-lg w-fit mx-auto flex flex-col md:flex-col 2xl:items-start gap-5 lg:gap-5'>

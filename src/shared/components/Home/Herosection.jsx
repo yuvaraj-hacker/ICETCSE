@@ -59,7 +59,7 @@ export default function HeroSection({ data }) {
       </section>
       <section className="py-10 flex flex-col md:gap-10 gap-7">
         <section className=" ">
-          <div className="container w-full xl:w-[90%] 2xl:w-[65%] mx-auto px-4 sm:px-6 lg:px-6">
+          <div className="container w-full xl:w-[90%] 2xl:w-[65%] mx-auto px-3 sm:px-6 lg:px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 md:gap-4 gap-4">
               <div className="flex justify-center items-center md:px-2">
                 <img alt="About Image" className="rounded-lg shadow-lg" src="/images/home/cs.jpg" />
@@ -86,7 +86,7 @@ export default function HeroSection({ data }) {
           </div>
         </section>
         <section className="">
-          <div className="container w-full xl:w-[90%] 2xl:w-[65%] mx-auto px-4 sm:px-6 lg:px-6">
+          <div className="container w-full xl:w-[90%] 2xl:w-[65%] mx-auto px-3 sm:px-6 lg:px-6">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="md:text-3xl  text-xl font-semibold text-black mb-4">Scope of the Conference</h2>
             </div>
