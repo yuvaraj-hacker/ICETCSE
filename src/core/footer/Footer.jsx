@@ -39,7 +39,7 @@ export default function Footer() {
                   Email: <a href="mailto:support@acsitconference.com" className="">contact.icacsit@gmail.com</a>
                 </li>
                 <li>
-                  Location: Seoul, South Korea
+                  Location: Oslo, Norway
                 </li>
               </ul>
             </div>
