@@ -36,7 +36,7 @@ function Dates() {
                     Key Dates
                 </div>
             </section>
-            <section className="  text-center  md:py-10 pt-10 " >
+            <section className="  text-center  md:py-10 pt-10 pb-10 " >
                 <div className="flex justify-center">
                     <div className="max-w-[80rem] mx-auto md:px-5 px-3">
                         <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-center gap-5 md:gap-10">

@@ -48,7 +48,7 @@ export default function HeroSection({ data }) {
               <p className="text-white text-[clamp(1rem,2vw,1.25rem)] pb-5 leading-relaxed">
                 25<sup>th</sup> March, 2026
               </p>
-              <Link to='/paper-submission' className="w-fit lg:mx-0 mx-auto">
+              <Link to='/paper-submission' className="w-fit lg:mx-0 mx-auto lg:hidden block">
                 <button className="px-4 py-2 rounded-lg w-fit text-white bg-[#FF5722] transition text-sm md:text-lg cursor-pointer">
                   Paper Submission
                 </button>

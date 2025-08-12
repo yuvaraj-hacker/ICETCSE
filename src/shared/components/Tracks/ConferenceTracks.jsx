@@ -64,7 +64,7 @@ function ConferenceTracks() {
             <div className="md:py-10 py-10">
                 <div className="max-w-[80rem] mx-auto px-4">
                     <div className="text-left md:mb-12 mb-5 ">
-                        <p className="text-black text-center md:text-lg">
+                        <p className="text-black text-left  md:text-center md:text-lg">
                             Explore diverse and cutting-edge research areas shaping the future of Computer Science and Engineering. The conference welcomes original research contributions in, but not limited to, the following tracks:
                         </p>
                     </div>

@@ -42,27 +42,27 @@ function Contact() {
                     Contact Us
                 </div>
             </section>
-            <section>
+            <section className='bg-gray-100'>
                 <div className="flex flex-col items-center py-10">
                     <div className="grid md:grid-cols-1 gap-5 grid-cols-1 px-6 w-full max-w-[40rem]">
-                        <div className="flex flex-col gap-4 md:gap-6 md:px-9 bg-[#F8F9FA] p-4 md:p-8 rounded-xl shadow-lg w-full">
-                            <h1 className="md:text-xl text-lg font-extrabold text-black text-center">Get in Touch</h1>
+                        <div className="flex flex-col gap-4 md:gap-6 md:px-9  p-4 md:p-8 rounded-lg shadow-lg w-full  bg-white border-[#FEDE68]">
+                            <h1 className="md:text-xl text-lg font-extrabold text-[#FF531A] text-center">Get in Touch</h1>
                             <form className="space-y-4" onSubmit={handleSubmit}>
                                 <div className='flex flex-col gap-2'>
                                     <label className='font-bold' htmlFor="firstname">First Name *</label>
-                                    <input type="text" name="firstname" id="firstname" value={formData.firstname} onChange={handleChange} placeholder="Enter your name" className="w-full h-12 p-2 text-lg  bg-white rounded-lg border border-gray-100   focus:outline-none focus:ring-2 focus:ring-blue-600" required />
+                                    <input type="text" name="firstname" id="firstname" value={formData.firstname} onChange={handleChange} placeholder="Enter your name" className="w-full h-12 p-2 text-lg  bg-white rounded-lg border border-gray-400   focus:outline-none focus:ring-2 focus:ring-blue-600" required />
                                 </div>
                                 <div className='flex flex-col gap-2'>
                                     <label className='font-bold' htmlFor="email">Email *</label>
-                                    <input type="email" name="email" id="email" value={formData.email} onChange={handleChange} placeholder="Enter your email" className="w-full h-12 p-2 text-lg border rounded-lg  bg-white  border-gray-100   focus:outline-none focus:ring-2 focus:ring-blue-600" required />
+                                    <input type="email" name="email" id="email" value={formData.email} onChange={handleChange} placeholder="Enter your email" className="w-full h-12 p-2 text-lg border rounded-lg  bg-white  border-gray-400   focus:outline-none focus:ring-2 focus:ring-blue-600" required />
                                 </div>
                                 <div className='flex flex-col gap-2'>
                                     <label className='font-bold' htmlFor="number">Number *</label>
-                                    <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} placeholder="Enter your number" className="w-full h-12 p-2 text-lg border rounded-lg bg-white  border-gray-100   focus:outline-none focus:ring-2 focus:ring-blue-600" required />
+                                    <input type="text" name="number" id="number" onChange={handleChange} value={formData.number} placeholder="Enter your number" className="w-full h-12 p-2 text-lg border rounded-lg bg-white  border-gray-400   focus:outline-none focus:ring-2 focus:ring-blue-600" required />
                                 </div>
                                 <div className='flex flex-col gap-2'>
                                     <label className='font-bold' htmlFor="message">Message *</label>
-                                    <textarea name="message" id='message' value={formData.message} onChange={handleChange} placeholder="Enter your message" className="w-full h-40 p-4 text-lg border rounded-lg  bg-white border-gray-100   resize-none focus:outline-none focus:ring-2 focus:ring-blue-600" required   ></textarea>
+                                    <textarea name="message" id='message' value={formData.message} onChange={handleChange} placeholder="Enter your message" className="w-full h-40 p-4 text-lg border rounded-lg  bg-white border-gray-400   resize-none focus:outline-none focus:ring-2 focus:ring-blue-600" required   ></textarea>
                                 </div>
                                 <button type="submit" className="w-full cursor-pointer p-3   bg-[#FF4500] text-white font-bold rounded-md hover:bg-[#FF4500] flex justify-center items-center gap-2"  >
                                     {status === 'Sending...' ? 'Submitting...' : 'Send message'}
