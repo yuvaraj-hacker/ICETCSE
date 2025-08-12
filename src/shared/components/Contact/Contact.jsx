@@ -44,7 +44,7 @@ function Contact() {
             </section>
             <section>
                 <div className="flex flex-col items-center py-10">
-                    <div className="grid md:grid-cols-2 gap-5 grid-cols-1 px-6 w-full max-w-[80rem]">
+                    <div className="grid md:grid-cols-1 gap-5 grid-cols-1 px-6 w-full max-w-[40rem]">
                         <div className="flex flex-col gap-4 md:gap-6 md:px-9 bg-[#F8F9FA] p-4 md:p-8 rounded-xl shadow-lg w-full">
                             <h1 className="md:text-xl text-lg font-extrabold text-black text-center">Get in Touch</h1>
                             <form className="space-y-4" onSubmit={handleSubmit}>
@@ -69,7 +69,7 @@ function Contact() {
                                 </button>
                             </form>
                         </div>
-                        <div className="flex flex-col gap-4 md:gap-6 md:px-9 bg-[#F8F9FA] p-4 md:p-8 rounded-xl shadow-lg w-full h-fit">
+                        {/* <div className="flex flex-col gap-4 md:gap-6 md:px-9 bg-[#F8F9FA] p-4 md:p-8 rounded-xl shadow-lg w-full h-fit">
                             <h1 className="md:text-xl text-lg font-extrabold text-black text-center">Contact Details</h1>
                             <div>
                                 <div className='flex flex-nowrap gap-4 p-5 border-b justify-center border-gray-400'>
@@ -81,7 +81,7 @@ function Contact() {
                                     <p className="">info.icetcse@gmail.com</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

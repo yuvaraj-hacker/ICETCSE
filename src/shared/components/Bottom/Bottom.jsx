@@ -12,7 +12,7 @@ const ContactSection = () => {
                     </div>
                     <div className='bg-white p-4 rounded-lg flex flex-col gap-4 justify-center'>
                         <p className="font-semibold"><i class="fi fi-ss-calendar flex justify-center items-center text-2xl text-[#FF5722]"></i></p>
-                        <p className=" md:text-2xl text-center">25<sup>th</sup> March</p>
+                        <p className=" md:text-2xl text-center">25<sup>th</sup> March, 2026</p>
                     </div>
                     <div className='bg-white p-4 rounded-lg flex flex-col gap-4 justify-center'>
                         <p className="font-semibold"><i class="fi fi-sr-clock flex justify-center items-center text-2xl text-[#FF5722]"></i></p>

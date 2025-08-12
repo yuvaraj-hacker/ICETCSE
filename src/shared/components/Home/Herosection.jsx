@@ -47,7 +47,7 @@ export default function HeroSection({ data }) {
               <h1 className="text-white font-bold italic md:text-6xl text-lg   leading-tight">CONFERENCE 2025</h1>
               <h1 className="text-white font-medium md:text-xl text-lg leading-tight">International Conference on Emerging Trends in Computer Science & Engineering</h1>
               <p className="text-white text-[clamp(1rem,2vw,1.25rem)] pb-5 leading-relaxed">
-                October 24, 2025
+                25<sup>th</sup> March, 2026 
               </p>
               <Link to='/paper-submission' className="w-fit lg:mx-0 mx-auto">
                 <button className="px-4 py-2 rounded-lg w-fit text-white bg-[#FF5722] transition text-sm md:text-lg cursor-pointer">
