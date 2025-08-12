@@ -78,7 +78,7 @@ export default function HeroSection({ data }) {
                 <div className="  md:text-left text-center">
                   <div className="w-fit mx-auto md:mx-0">
                     <Link to='/about' className="w-fit">
-                      <div className="bg-[#E64A19] p-3  hover:scale-95 duration-300  rounded-lg text-white cursor-pointer w-fit md:mx-0 mx-auto">
+                      <div className="bg-[#E64A19] p-3 hover:scale-95 duration-300  rounded-lg text-white cursor-pointer w-fit md:mx-0 mx-auto">
                         Read More
                       </div>
                     </Link>
