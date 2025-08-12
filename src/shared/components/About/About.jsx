@@ -18,7 +18,7 @@ function About() {
                                 <div className="max-w-[70rem] mx-auto flex flex-col md:flex-row 2xl:items-center gap-5 lg:gap-15">
                                     <div className="w-full">
                                         <p className="pb-3 md:pb-6 text-justify md:text-[18px] leading-relaxed mb-2">
-                                            The International Conference on Emerging Trends in Computer Science & Engineering 2025 is a premier global forum that unites researchers, industry experts, and academic scholars to explore the latest innovations and advancements in computer science and engineering.                                        </p>
+                                            The International Conference on Emerging Trends in Computer Science & Engineering (ICETCSE) 2025 is a premier global forum that unites researchers, industry experts, and academic scholars to explore the latest innovations and advancements in computer science and engineering.                                        </p>
                                         <div className='grid lg:grid-cols-2 gap-5 items-center mb-5'>
                                             <div>
                                                 <img src="/images/home/cs.jpg" className='rounded-md' alt="" />
@@ -44,31 +44,31 @@ function About() {
                     Conference Objectives
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 gap-4">
-                    <div className="text-center">
-                        <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <BookOpen className="w-8 h-8 text-white" />
+                    <div className="text-center border border-[#FEDE68] p-4 rounded-lg">
+                        <div className="w-16 h-16   rounded-full flex items-center justify-center mx-auto mb-4">
+                            <BookOpen className="w-8 h-8 text-blue-600" />
                         </div>
-                        <h3 className="text-xl font-medium   mb-3">Knowledge Sharing</h3>
+                        <h3 className="text-xl font-medium text-[#FF5722]  mb-3">Knowledge Sharing</h3>
                         <p className="">
                             Facilitate the exchange of cutting-edge research findings and innovative solutions
                             among global experts in computer science and engineering.
                         </p>
                     </div>
-                    <div className="text-center">
-                        <div className="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <Network className="w-8 h-8 text-white" />
+                    <div className="text-center  border border-[#FEDE68] p-4 rounded-lg">
+                        <div className="w-16 h-16    rounded-full flex items-center justify-center mx-auto mb-4">
+                            <Network className="w-8 h-8 text-blue-600" />
                         </div>
-                        <h3 className="text-xl font-medium  mb-3">Collaboration</h3>
+                        <h3 className="text-xl font-medium text-[#FF5722] mb-3">Collaboration</h3>
                         <p className=" ">
                             Build lasting professional relationships and foster collaborative partnerships
                             between academic institutions and industry leaders.
                         </p>
                     </div>
-                    <div className="text-center">
-                        <div className="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <Lightbulb className="w-8 h-8 text-white" />
+                    <div className="text-center  border border-[#FEDE68] p-4 rounded-lg">
+                        <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <Lightbulb className="w-8 h-8 text-blue-600" />
                         </div>
-                        <h3 className="text-xl font-medium  mb-3">Innovation</h3>
+                        <h3 className="text-xl font-medium text-[#FF5722] mb-3">Innovation</h3>
                         <p className=" ">
                             Inspire breakthrough innovations that address real-world challenges and shape
                             the future of technology and digital transformation.
